@@ -1,6 +1,6 @@
 # Digital-Supply-Chain-Product-Data-Management
 Created a UI to manage the creation of new MBOM from given EBOM by overriding attributes, deleting attributes and adding a new attribute.
-to run this first import database in MySQL
+To run this first import database dell.sql in MySQL
 database dell.sql which contain the following table 
 1.login
       attribute:
@@ -11,7 +11,7 @@ database dell.sql which contain the following table
           1.mbom_name(primary key)
 3.newebom
      attribute:
-          1.serial_no(primary key)
+          1.serial_no(foreign key)
           2.Company 
           3.Product 
           4.TypeName 
